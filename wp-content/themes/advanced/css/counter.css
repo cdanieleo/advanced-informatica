@@ -1,0 +1,23 @@
+#numero
+{
+	height: 100px;
+ 	float:left;
+	font-size:80px;
+	font-weight:300;
+	text-align:center;
+	color:#FFF;
+ 	margin:5px;
+	width:100%;
+}
+.count
+{
+  line-height: 100px;
+	color:#FFF;
+	font-size:80px;
+	font-weight:300;
+	text-align:center;
+}
+
+.txt_numeros{ font-size:20px; text-align:center; float:left; display:block; color:#FFF; width:100%;}
+
+

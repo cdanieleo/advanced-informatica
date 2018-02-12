@@ -1,2 +1,1 @@
-# advanced-informatica
-Site da Advanced Informática no Wordpress
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)

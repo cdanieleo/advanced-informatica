@@ -1,0 +1,513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Code Placement\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-06 15:12+0100\n"
+"PO-Revision-Date: 2016-11-06 15:12+0100\n"
+"Last-Translator: Jens Herdy <herdy@gmx.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/ext\n"
+
+#: inc/actions/add.php:24 inc/actions/add.php:81
+msgid "A maximum of 30 Characters is allowed"
+msgstr "Maximal 30 Zeichen sind erlaubt"
+
+#: inc/actions/add.php:33
+msgid "Special Characters are not allowed in the Code Name"
+msgstr "Sonderzeichen sind im Code Namen nicht erlaubt"
+
+#: inc/actions/add.php:42
+msgid "The Code Name and / or the Code must be filled in"
+msgstr "Der Code Name und / oder der Code müssen ausgefüllt werden"
+
+#: inc/actions/add.php:52
+msgid "The Code Name already exist - It must be uniqe"
+msgstr "Der Name existiert bereits - Er muss einmalig sein"
+
+#: inc/actions/add.php:72
+msgid "New Code"
+msgstr "Code hinzufügen"
+
+#: inc/actions/add.php:76 inc/actions/edit.php:78 inc/home.php:41
+msgid "Name"
+msgstr "Name"
+
+#: inc/actions/add.php:79
+msgid "Only Letters and Numbers are allowed"
+msgstr "Nur Buchstaben und Zahlen sind erlaubt"
+
+#: inc/actions/add.php:80
+msgid "Instead of Whitesspaces use Underlines"
+msgstr "Anstelle von Leerzeichen sind Unterstriche zu benutzen"
+
+#: inc/actions/add.php:85 inc/actions/edit.php:83
+msgid "Code"
+msgstr "Code"
+
+#: inc/actions/add.php:89 inc/actions/edit.php:87
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: inc/actions/add.php:91 inc/actions/edit.php:89
+msgid "None"
+msgstr "Keine"
+
+#: inc/actions/add.php:92 inc/actions/edit.php:90
+msgid "Left"
+msgstr "Links"
+
+#: inc/actions/add.php:93 inc/actions/edit.php:91
+msgid "Center"
+msgstr "Zentriert"
+
+#: inc/actions/add.php:94 inc/actions/edit.php:92
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/actions/add.php:98 inc/actions/edit.php:96
+msgid "Status"
+msgstr "Status"
+
+#: inc/actions/add.php:100 inc/actions/edit.php:98
+msgid "Online"
+msgstr "Online"
+
+#: inc/actions/add.php:101 inc/actions/edit.php:99
+msgid "Offline"
+msgstr "Offline"
+
+#: inc/actions/add.php:104 inc/actions/edit.php:102 inc/error.php:22
+msgid "Back"
+msgstr "Zurück"
+
+#: inc/actions/add.php:104
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: inc/actions/alignment.php:23 inc/actions/delete.php:17
+#: inc/actions/edit.php:30 inc/actions/edit.php:64 inc/actions/status.php:23
+msgid "Modifying of the ID is not allowed"
+msgstr "Das verändern der ID ist nicht erlaubt"
+
+#: inc/actions/alignment.php:30
+msgid ""
+"Modifying the Alignment to something else than 0, 1, 2 or 3 is not allowed"
+msgstr ""
+"Das verändern der Ausrichtung zu etwas anderem als 0, 1, 2 oder 3 ist nicht "
+"erlaubt"
+
+#: inc/actions/edit.php:39
+msgid "The Code must be filled in"
+msgstr "Es muss ein Code eingegeben werden"
+
+#: inc/actions/edit.php:74
+msgid "Edit Code"
+msgstr "Code bearbeiten"
+
+#: inc/actions/edit.php:102 inc/pages/settings.php:40
+msgid "Save"
+msgstr "Speichern"
+
+#: inc/actions/settings.php:18
+msgid "The Option \"Codes per Page\" must be filled in"
+msgstr "Die Option \"Codes pro Seite\" muss ausgefüllt werden"
+
+#: inc/actions/settings.php:27
+msgid "The Value for the Option \"Codes per Page\" must be numeric"
+msgstr "Die Wert der Option \"Codes pro Seite\" muss numerisch sein"
+
+#: inc/actions/status.php:30
+msgid "Modifying of the Status to something else than 1 or 2 is not allowed"
+msgstr ""
+"Das verändern des Status zu etwas anderem als 1 oder 2 ist nicht erlaubt"
+
+#: inc/error.php:11 inc/error.php:16 inc/pages/system.php:25
+#: inc/pages/system.php:55 inc/pages/system.php:68 inc/pages/system.php:81
+#: inc/pages/system.php:100 inc/pages/system.php:110
+msgid "Error"
+msgstr "Fehler"
+
+#: inc/functions.php:15
+msgid ""
+"You don´t have the Permissions to access this Page. Please contact the "
+"Administrator."
+msgstr ""
+"Du hast nicht die Berechtigungen um diese Seite aufzurufen. Bitte "
+"kontaktiere den Administrator."
+
+#: inc/functions.php:26 inc/functions.php:148 inc/load.php:51
+msgid "Easy Code Placement"
+msgstr "Easy Code Placement"
+
+#: inc/functions.php:149
+msgid "Add a Code wherever you want it."
+msgstr "Füge einen Code ein wo immer du möchtest."
+
+#: inc/functions.php:195
+msgid "Code to Display:"
+msgstr "Code der angezeigt werden soll:"
+
+#: inc/functions.php:197
+msgid "Please select a Code"
+msgstr "Bitte wähle einen Code aus"
+
+#: inc/functions.php:214
+msgid "Remove Borders and Design from Widget?"
+msgstr "Rahmen und Design vom Widget entfernen?"
+
+#: inc/home.php:24
+msgid "« Previous"
+msgstr "« Vorherige"
+
+#: inc/home.php:25
+msgid "Next »"
+msgstr "Nächste »"
+
+#: inc/home.php:42
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/home.php:43
+msgid "Action"
+msgstr "Aktion"
+
+#: inc/home.php:57
+msgid "Copy Shortcode to Clipboard"
+msgstr "Kopiere Shortcode in die Zwischenablage"
+
+#: inc/home.php:57
+msgid "Copy"
+msgstr "Kopieren"
+
+#: inc/home.php:63
+msgid "Online - Click to change"
+msgstr "Online - Klicke um dies zu ändern"
+
+#: inc/home.php:65
+msgid "Offline - Click to change"
+msgstr "Offline - Klicke um dies zu ändern"
+
+#: inc/home.php:70
+msgid "No Alignment - Click to change"
+msgstr "Keine Ausrichtung - Klicke um dies zu ändern"
+
+#: inc/home.php:72
+msgid "Alignment Left - Click to change"
+msgstr "Ausrichtung links - Klicke um dies zu ändern"
+
+#: inc/home.php:74
+msgid "Alignment Center - Click to change"
+msgstr "Ausrichtung zentriert - Klicke um dies zu ändern"
+
+#: inc/home.php:76
+msgid "Alignment Right - Click to change"
+msgstr "Ausrichtung rechts - Klicke um dies zu ändern"
+
+#: inc/home.php:79
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/home.php:90
+msgid "No Code found - Click \"Add New Code\" to add one."
+msgstr ""
+"Kein Code gefunden - Klick auf \"Neuen Code hinzufügen\" um einen "
+"hinzuzufügen."
+
+#: inc/home.php:99
+msgid "Add New Code"
+msgstr "Neuen Code hinzufügen"
+
+#: inc/home.php:136
+msgid ""
+"If you want to thank the developer for this free Plugin, you are welcome to "
+"make a donation via PayPal (you don't need a PayPal account to make the "
+"donation)."
+msgstr ""
+"Wenn du dem Entwickler für dieses kostenlose Plugin danken möchtest, kannst "
+"du gerne bei PayPal eine Spende hinterlassen (es wird kein PayPal Account "
+"benötigt)."
+
+#: inc/home.php:144
+msgid "Added on"
+msgstr "Hinzugefügt am"
+
+#: inc/home.php:146
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#: inc/home.php:149
+msgid "Close"
+msgstr "Schließen"
+
+#: inc/home.php:157
+msgid "Are you really sure you want to permanently delete this Shortcode?"
+msgstr ""
+"Bist du wirklich sicher das du den Shortcode für immer löschen möchtest?"
+
+#: inc/home.php:159
+msgid "No!"
+msgstr "Nein!"
+
+#: inc/home.php:160
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: inc/load.php:55
+msgid "Home"
+msgstr "Übersicht"
+
+#: inc/load.php:56
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/load.php:57
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/load.php:58
+msgid "System Information"
+msgstr "System Informationen"
+
+#: inc/pages/help.php:11
+msgid "Where do I get the Shortcode from?"
+msgstr "Wo bekomme ich den Shortcode her?"
+
+#: inc/pages/help.php:12
+msgid ""
+"You only need to Click on the \"Copy\" Button in the Row with your Shortcode "
+"you need. When you click on the Button the Shortcode is copied to your "
+"Clipoard. Now you only need to Press \"Strg + V\" on your Keyboard or Right-"
+"Click on your Mouse and click on \"Insert\" at the place you want to have "
+"the Shortcode."
+msgstr ""
+"In der Zeile in der sich dein benötigter Shortcode befindet brauchst du "
+"lediglich auf den \"Kopieren\" Button drücken. Wenn du auf diesen Button "
+"klickst wird der Shortcode in deine Zwischenablage kopiert. Nun musst du "
+"lediglich an der Stelle an der du den Shortcode haben möchtest \"Strg + V\" "
+"auf deiner Tastatur drücken oder auf deine rechte Maustaste klicken und "
+"\"Einfügen\" auswählen."
+
+#: inc/pages/help.php:13
+msgid "The \"Copy\" Button don´t work or I want to write the Code manually!"
+msgstr ""
+"Der \"Kopieren\" Button funktioniert nicht oder ich möchte den Code manuell "
+"eingeben!"
+
+#: inc/pages/help.php:14
+msgid ""
+"Just type [ecp code=\"%PLACEHOLDER%\"] at the place you want to have the "
+"Shortcode. Replace %PLACEHOLDER% with the Name of your Shortcode."
+msgstr ""
+"Schreibe einfach [ecp code=\"%PLATZHALTER%\"] an die Stelle an der du deinen "
+"Shortcode haben möchtest. Ersetze %PLATZHALTER% mit dem Namen deines "
+"Shortcodes."
+
+#: inc/pages/help.php:15
+msgid "Where can I place the Shortcode?"
+msgstr "Wo kann ich den Shortcode platzieren?"
+
+#: inc/pages/help.php:16
+msgid ""
+"At the moment you can place the Shortcode at the following Areas: Widget "
+"Title and Content, Title of Posts and Pages (only Text and without "
+"alignement), Content of Posts and Pages, Menu (in the Link-Text and the URL "
+"must be \"#\" if you dont want to link it somewhere), Tags and Excerpts."
+msgstr ""
+"Im Moment kannst du den Shortcode in folgenden Bereichen platzieren: Widget "
+"Titel und Inhalt, Titel von Beiträgen und Seiten (nur Text und ohne "
+"Ausrichtung), Inhalt von Beiträgen und Seiten, Menü (in den Text des Links "
+"und die URL muss \"#\" sein wenn du diesen nicht verlinken möchtest), "
+"Schlagwörter und Auszüge."
+
+#: inc/pages/help.php:17
+msgid "The Output doesn´t look right or it has a colored Background!"
+msgstr ""
+"Die Ausgabe sieht nicht richtig aus oder hat einen farbigen Hintergrund!"
+
+#: inc/pages/help.php:18
+msgid ""
+"Be sure to use the \"Copy\" Button to get your Shortcode or write in "
+"manually. Otherwise it can happen that you Copy HTML Code that´s around the "
+"Shortcode. You couldn´t see see it but you can Copy it!"
+msgstr ""
+"Stell bitte sicher das du den \"Kopieren\" Button verwendest oder den "
+"Shortcode selber schreibst. Andernfalls kann es passieren das du HTML Code "
+"kopierst der um den Shortcode herum liegt. Du kannst ihn nicht sehen aber du "
+"kannst ihn kopieren!"
+
+#: inc/pages/settings.php:14
+msgid "Who can manage this Plugin?"
+msgstr "Wer kann dieses Plugin verwalten?"
+
+#: inc/pages/settings.php:21
+msgid "Adminstrators and higher"
+msgstr "Administratoren und höher"
+
+#: inc/pages/settings.php:22
+msgid "Editors and higher"
+msgstr "Redakteure und höher"
+
+#: inc/pages/settings.php:23
+msgid "Authors and higher"
+msgstr "Autoren und höher"
+
+#: inc/pages/settings.php:24
+msgid "Contributors and higher"
+msgstr "Mitarbeiter und höher"
+
+#: inc/pages/settings.php:29 inc/pages/system.php:76
+msgid "Codes per Page"
+msgstr "Codes pro Seite"
+
+#: inc/pages/system.php:10
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/pages/system.php:14
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: inc/pages/system.php:18
+msgid "MySQL Version"
+msgstr "MySQL Version"
+
+#: inc/pages/system.php:31
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#: inc/pages/system.php:35
+msgid "WordPress Network Page"
+msgstr "WordPress Netzwerk Seite"
+
+#: inc/pages/system.php:38
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/pages/system.php:40
+msgid "No"
+msgstr "Nein"
+
+#: inc/pages/system.php:46
+msgid "Plugin Version (File)"
+msgstr "Plugin Version (Datei)"
+
+#: inc/pages/system.php:50
+msgid "Plugin Version (Database)"
+msgstr "Plugin Version (Datenbank)"
+
+#: inc/pages/system.php:63
+msgid "Role"
+msgstr "Rolle"
+
+#: inc/pages/system.php:91
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: inc/pages/system.php:95
+msgid "PHP max. execution time"
+msgstr "PHP max. Ausführungszeit"
+
+#: inc/pages/system.php:105
+msgid "PHP memory limit"
+msgstr "PHP Speicherlimit"
+
+#: inc/pages/system.php:115
+msgid "WordPress memory limit"
+msgstr "WordPress Speicherlimit"
+
+#: inc/pages/system.php:121
+msgid "Paths"
+msgstr "Pfade"
+
+#: inc/pages/system.php:125
+msgid "Home URL"
+msgstr "Home URL"
+
+#: inc/pages/system.php:129
+msgid "Site URL"
+msgstr "Seiten URL"
+
+#: inc/pages/system.php:133
+msgid "Plugin URL"
+msgstr "Plugin URL"
+
+#~ msgid "Value"
+#~ msgstr "Wert"
+
+#~ msgid ""
+#~ "At the moment you can place the Shortcode at the following Areas: Widget "
+#~ "Title and Content, Title of Posts and Pages (only Text and without "
+#~ "alignement), Content of Posts and Pages, Menu (in the Link-Text and the "
+#~ "URL must be \"#\" if you dont want to link it somewhere), Tags and "
+#~ "Excerpts"
+#~ msgstr ""
+#~ "Im Moment kannst du den Shortcode in folgenden Bereichen platzieren: "
+#~ "Widget Titel und Inhalt, Titel von Beiträgen und Seiten (nur Text und "
+#~ "ohne Ausrichtung), Inhalt von Beiträgen und Seiten, Menü (in den Text des "
+#~ "Links und die URL muss \"#\" sein wenn du diesen nicht verlinken "
+#~ "möchtest), Schlagwörter und Auszüge"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Added"
+#~ msgstr "Hinzugefügt"
+
+#~ msgid "Last Modified"
+#~ msgstr "Zuletzt geändert"
+
+#~ msgid "Modified"
+#~ msgstr "Verändert"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Löschen bestätigen"
+
+#~ msgid "Codes"
+#~ msgstr "Codes"
+
+#~ msgid "Status is Online - Click to change"
+#~ msgstr "Status ist Online - Klicke um dies zu ändern"
+
+#~ msgid "Status is Offline - Click to change"
+#~ msgstr "Status ist Offline - Klicke um dies zu ändern"
+
+#~ msgid "Left Alignment - Click to change"
+#~ msgstr "Linke Ausrichtung - Klicke um dies zu ändern"
+
+#~ msgid "Center Alignment - Click to change"
+#~ msgstr "Zentrierte Ausrichtung - Klicke um dies zu ändern"
+
+#~ msgid "Right Alignment - Click to change"
+#~ msgstr "Rechte Ausrichtung - Klicke um dies zu ändern"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "http://www.randnotizen.org/easy-code-placement"
+#~ msgstr "http://www.randnotizen.org/easy-code-placement"
+
+#~ msgid "Jens Herdy"
+#~ msgstr "Jens Herdy"
+
+#~ msgid "http://www.randnotizen.org"
+#~ msgstr "http://www.randnotizen.org"
+
+#~ msgid "A great Wordpress Plugin to place ANY Code ANYWHERE you want."
+#~ msgstr ""
+#~ "Ein tolles Wordpress Plugin um jeglichen Code dort zu platzieren wo du es "
+#~ "möchtest."

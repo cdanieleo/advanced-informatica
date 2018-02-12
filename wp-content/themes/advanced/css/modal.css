@@ -1,0 +1,121 @@
+/* Normal styles for the modal */
+#moda1 {
+
+	opacity: 0;
+	position:absolute;
+	top:80%;
+	padding-top:60%;
+	height:2500px;
+	visibility: hidden;
+	width:100%;
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	background-color: rgba(0,0,0,);
+	
+}
+	/* Make the modal appear when targeted */
+	#moda1:target {
+		opacity:1;
+		top:100%;
+		visibility: visible;
+		margin-top:-60%;
+		background-color: rgba(0,0,0, 0.6);
+		
+	}
+	
+#moda1 .moda1_header{ background-color:#01a982; padding:20px; }	
+#moda1 .moda1_header img{ padding:0; margin:0;}
+	
+
+
+#moda1 p{	font-size:13px; padding:0 20px 0 20px;}
+
+#moda1 ul{ font-size:13px; padding:0 20px 0 20px;}
+
+#moda1 ul li{ margin:0 40px 0 40px;}
+
+#moda1 h2 {
+	margin:0; color:#FFF; text-align:center; text-transform:uppercase; font-size:20px; font-weight:400px;
+}
+
+#moda1 .copy,#moda1 .header, #moda1 .footer {
+	padding:15px;
+}
+
+
+
+.col1_modal{width:31.5%;  height:250px; display:inline;  float:left; margin:5px 0 5px 5px;  }
+.col2_modal{width:64%;  height:300px; display:inline;  float:left; margin:5px 0 5px 10px; }
+.tilt{margin:0; color:#FFF; text-align:center; text-transform:uppercase; font-size:20px; font-weight:700; background-color:#01a982; padding:20px 0 20px 0; width:100%; }
+.col1_modal2{ width:100%; background-color:#eaeaea; height:230px; display:inline;  float:left; padding:5px 0 5px 0;  }
+.col2_modal2{ width:50%; background-color:#eaeaea; height:230px; display:inline;  float:left;  padding:5px; }
+.col2_modal  h4{ color:#01a982; font-size:15px; margin:5px 0; text-transform:uppercase; text-align:center;}
+.col2_modal h5{ color:#383838; margin:0;  text-align:center; font-size:12px; font-weight:300;}
+.col2_modal img{ width:100%; height:auto; text-align:center; display:block; margin:0 auto;}
+.col1_modal2 h4{ color:#01a982; font-size:15px; margin:5px 0; text-transform:uppercase; text-align:center;}
+	
+.col1_modal2 h5{ color:#383838; margin:0;  text-align:center; font-size:12px; font-weight:300;}
+		
+.col1_modal2 img{ width:100%; height:auto; display:block; margin:0 auto;}
+.col_full{ width:97%; margin:10px 5px; float:left; display:block;}
+.txt_full{width:99%; margin:10px 5px; padding:5px; background-color:#eaeaea; float:left; display:block; font-size:11px;}
+.col3_modal{ width:31.5%; background-color:#eaeaea; height:230px; display:inline;  float:left; margin:5px; padding:5px; }
+	.col3_modal h4{ color:#01a982; font-size:15px; margin:5px 0; text-transform:uppercase; text-align:center;}
+	.col3_modal h5{ color:#383838; margin:0;  text-align:center; font-size:12px; font-weight:300;}
+	.col3_modal img{ width:100%; height:auto; display:block; margin:0 auto;}
+	
+
+
+
+@media (max-width:1024px) {
+
+
+#moda1 {
+	margin:-50px 0 0 0;
+	width:100%;
+
+}
+
+.moda1-content { width:90%;}
+
+
+
+	
+}
+
+@media (max-width:670px) {
+	.col3_modal{ width:95%; display:block;}
+	.col1_modal{width:97%; display:block;}
+	.col2_modal{width:95%; margin-top:60px; margin-left:5px; display:block;}
+	.moda1-content { height:1800px;}
+	.moda2-content { height:auto; padding-bottom:10px;}
+	
+}
+
+@media (max-width:530px) {
+	.moda1-content { height:1900px;}
+	
+}
+
+
+@media (max-width: 460px) {
+	.tilt{ display:block; width:100%; float:none;}
+	.col2_modal{width:97%; display:block; float:left; height:550px; }
+	.col2_modal2{ width:97%; display:block; float:left; margin-top:5px; }
+	.col2_modal2 img{ max-width:100px;}
+	.moda1-content { height:2200px;}
+	
+	
+}
+
+@media (max-width: 320px) {
+	.col_full{ width:95%;}
+	
+}
+
+
+
+
+
